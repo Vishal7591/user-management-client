@@ -1,0 +1,21 @@
+.signup {
+  height: 100vh;
+
+  &-inner {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.secondaryinputs {
+  margin-block-start: 20px;
+}
+
+.buttons {
+  width: 25%;
+  display: flex;
+  margin-block-start: 20px;
+  flex-direction: row;
+}
