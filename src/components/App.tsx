@@ -10,7 +10,6 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        {/* <AddRemoveClient /> */}
         <Routes>
           <Route index path="/" element={<Login />} />
           <Route path="signup" element={<Signup />} />
